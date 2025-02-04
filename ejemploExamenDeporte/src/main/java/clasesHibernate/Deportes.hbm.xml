@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated 4 feb 2025 10:27:30 by Hibernate Tools 6.5.1.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="deporte" name="clasesHibernate.Deportes" optimistic-lock="none" table="deportes">
+        <id name="id" type="int">
+            <column name="id"/>
+            <generator class="identity"/>
+        </id>
+        <property name="nombre" type="string">
+            <column length="255" name="nombre" not-null="true"/>
+        </property>
+        <set fetch="select" inverse="true" lazy="true" name="equiposes" table="equipos">
+            <key>
+                <column name="deporte_id"/>
+            </key>
+            <one-to-many class="clasesHibernate.Equipos"/>
+        </set>
+    </class>
+</hibernate-mapping>

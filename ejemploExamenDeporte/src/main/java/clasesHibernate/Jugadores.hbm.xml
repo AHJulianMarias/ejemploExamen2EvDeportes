@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated 4 feb 2025 10:27:30 by Hibernate Tools 6.5.1.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="deporte" name="clasesHibernate.Jugadores" optimistic-lock="none" table="jugadores">
+        <id name="id" type="int">
+            <column name="id"/>
+            <generator class="identity"/>
+        </id>
+        <many-to-one class="clasesHibernate.Equipos" fetch="select" name="equipos">
+            <column name="equipo_id"/>
+        </many-to-one>
+        <property name="nombre" type="string">
+            <column length="255" name="nombre" not-null="true"/>
+        </property>
+        <property name="edad" type="java.lang.Integer">
+            <column name="edad"/>
+        </property>
+        <property name="posicion" type="string">
+            <column length="100" name="posicion"/>
+        </property>
+        <property name="nacionalidad" type="string">
+            <column length="100" name="nacionalidad"/>
+        </property>
+    </class>
+</hibernate-mapping>
