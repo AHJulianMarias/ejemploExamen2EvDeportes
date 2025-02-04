@@ -1,0 +1,198 @@
+[
+  {
+    "deporte": "Fútbol",
+    "equipos": [
+      {
+        "nombre": "FC Barcelona",
+        "pais": "España",
+        "jugadores": [
+          { "nombre": "Lionel Messi", "edad": 36, "posicion": "Delantero", "nacionalidad": "Argentina" },
+          { "nombre": "Pedri", "edad": 21, "posicion": "Centrocampista", "nacionalidad": "España" },
+          { "nombre": "Marc-André ter Stegen", "edad": 31, "posicion": "Portero", "nacionalidad": "Alemania" },
+          { "nombre": "Ronald Araújo", "edad": 24, "posicion": "Defensa", "nacionalidad": "Uruguay" },
+          { "nombre": "Frenkie de Jong", "edad": 26, "posicion": "Centrocampista", "nacionalidad": "Países Bajos" }
+        ]
+      },
+      {
+        "nombre": "Real Madrid",
+        "pais": "España",
+        "jugadores": [
+          { "nombre": "Vinicius Jr", "edad": 23, "posicion": "Delantero", "nacionalidad": "Brasil" },
+          { "nombre": "Jude Bellingham", "edad": 20, "posicion": "Centrocampista", "nacionalidad": "Inglaterra" },
+          { "nombre": "Thibaut Courtois", "edad": 31, "posicion": "Portero", "nacionalidad": "Bélgica" },
+          { "nombre": "David Alaba", "edad": 31, "posicion": "Defensa", "nacionalidad": "Austria" },
+          { "nombre": "Rodrygo", "edad": 23, "posicion": "Delantero", "nacionalidad": "Brasil" }
+        ]
+      },
+      {
+        "nombre": "Manchester City",
+        "pais": "Inglaterra",
+        "jugadores": [
+          { "nombre": "Erling Haaland", "edad": 23, "posicion": "Delantero", "nacionalidad": "Noruega" },
+          { "nombre": "Kevin De Bruyne", "edad": 32, "posicion": "Centrocampista", "nacionalidad": "Bélgica" },
+          { "nombre": "Ederson", "edad": 30, "posicion": "Portero", "nacionalidad": "Brasil" },
+          { "nombre": "Rúben Dias", "edad": 26, "posicion": "Defensa", "nacionalidad": "Portugal" },
+          { "nombre": "Bernardo Silva", "edad": 29, "posicion": "Centrocampista", "nacionalidad": "Portugal" }
+        ]
+      },
+      {
+        "nombre": "Paris Saint-Germain",
+        "pais": "Francia",
+        "jugadores": [
+          { "nombre": "Kylian Mbappé", "edad": 24, "posicion": "Delantero", "nacionalidad": "Francia" },
+          { "nombre": "Neymar Jr", "edad": 31, "posicion": "Delantero", "nacionalidad": "Brasil" },
+          { "nombre": "Marco Verratti", "edad": 31, "posicion": "Centrocampista", "nacionalidad": "Italia" },
+          { "nombre": "Achraf Hakimi", "edad": 24, "posicion": "Defensa", "nacionalidad": "Marruecos" },
+          { "nombre": "Gianluigi Donnarumma", "edad": 24, "posicion": "Portero", "nacionalidad": "Italia" }
+        ]
+      }
+    ]
+  },
+  {
+    "deporte": "Baloncesto",
+    "equipos": [
+      {
+        "nombre": "Los Angeles Lakers",
+        "pais": "Estados Unidos",
+        "jugadores": [
+          { "nombre": "LeBron James", "edad": 39, "posicion": "Alero", "nacionalidad": "EE.UU." },
+          { "nombre": "Anthony Davis", "edad": 30, "posicion": "Pívot", "nacionalidad": "EE.UU." },
+          { "nombre": "Austin Reaves", "edad": 25, "posicion": "Escolta", "nacionalidad": "EE.UU." },
+          { "nombre": "D'Angelo Russell", "edad": 27, "posicion": "Base", "nacionalidad": "EE.UU." },
+          { "nombre": "Rui Hachimura", "edad": 26, "posicion": "Alero", "nacionalidad": "Japón" }
+        ]
+      },
+      {
+        "nombre": "Boston Celtics",
+        "pais": "Estados Unidos",
+        "jugadores": [
+          { "nombre": "Jayson Tatum", "edad": 26, "posicion": "Alero", "nacionalidad": "EE.UU." },
+          { "nombre": "Jaylen Brown", "edad": 27, "posicion": "Escolta", "nacionalidad": "EE.UU." },
+          { "nombre": "Kristaps Porzingis", "edad": 28, "posicion": "Pívot", "nacionalidad": "Letonia" },
+          { "nombre": "Derrick White", "edad": 29, "posicion": "Base", "nacionalidad": "EE.UU." },
+          { "nombre": "Al Horford", "edad": 37, "posicion": "Pívot", "nacionalidad": "República Dominicana" }
+        ]
+      },
+      {
+        "nombre": "Chicago Bulls",
+        "pais": "Estados Unidos",
+        "jugadores": [
+          { "nombre": "Zach LaVine", "edad": 29, "posicion": "Escolta", "nacionalidad": "EE.UU." },
+          { "nombre": "DeMar DeRozan", "edad": 34, "posicion": "Alero", "nacionalidad": "EE.UU." },
+          { "nombre": "Nikola Vucevic", "edad": 33, "posicion": "Pívot", "nacionalidad": "Montenegro" },
+          { "nombre": "Coby White", "edad": 24, "posicion": "Base", "nacionalidad": "EE.UU." },
+          { "nombre": "Alex Caruso", "edad": 30, "posicion": "Escolta", "nacionalidad": "EE.UU." }
+        ]
+      },
+      {
+        "nombre": "Miami Heat",
+        "pais": "Estados Unidos",
+        "jugadores": [
+          { "nombre": "Jimmy Butler", "edad": 34, "posicion": "Alero", "nacionalidad": "EE.UU." },
+          { "nombre": "Bam Adebayo", "edad": 26, "posicion": "Pívot", "nacionalidad": "EE.UU." },
+          { "nombre": "Tyler Herro", "edad": 23, "posicion": "Escolta", "nacionalidad": "EE.UU." },
+          { "nombre": "Kyle Lowry", "edad": 37, "posicion": "Base", "nacionalidad": "Canadá" },
+          { "nombre": "Duncan Robinson", "edad": 29, "posicion": "Escolta", "nacionalidad": "EE.UU." }
+        ]
+      }
+    ]
+  },
+  {
+    "deporte": "Balonmano",
+    "equipos": [
+      {
+        "nombre": "FC Barcelona Handbol",
+        "pais": "España",
+        "jugadores": [
+          { "nombre": "Dika Mem", "edad": 26, "posicion": "Lateral derecho", "nacionalidad": "Francia" },
+          { "nombre": "Gonzalo Pérez de Vargas", "edad": 32, "posicion": "Portero", "nacionalidad": "España" },
+          { "nombre": "Ludovic Fàbregas", "edad": 27, "posicion": "Pivote", "nacionalidad": "Francia" },
+          { "nombre": "Aleix Gómez", "edad": 26, "posicion": "Extremo derecho", "nacionalidad": "España" },
+          { "nombre": "Luka Cindric", "edad": 30, "posicion": "Central", "nacionalidad": "Croacia" }
+        ]
+      },
+      {
+        "nombre": "Paris Saint-Germain Handball",
+        "pais": "Francia",
+        "jugadores": [
+          { "nombre": "Nikola Karabatic", "edad": 39, "posicion": "Central", "nacionalidad": "Francia" },
+          { "nombre": "Elohim Prandi", "edad": 24, "posicion": "Lateral izquierdo", "nacionalidad": "Francia" },
+          { "nombre": "Kamil Syprzak", "edad": 31, "posicion": "Pivot", "nacionalidad": "Polonia" },
+          { "nombre": "Vincent Gérard", "edad": 34, "posicion": "Portero", "nacionalidad": "Francia" },
+          { "nombre": "Sander Sagosen", "edad": 27, "posicion": "Lateral derecho", "nacionalidad": "Noruega" }
+        ]
+      },
+      {
+        "nombre": "THW Kiel",
+        "pais": "Alemania",
+        "jugadores": [
+          { "nombre": "Niklas Landin", "edad": 31, "posicion": "Portero", "nacionalidad": "Dinamarca" },
+          { "nombre": "Sami Borg", "edad": 29, "posicion": "Lateral derecho", "nacionalidad": "Suecia" },
+          { "nombre": "Rune Dahmke", "edad": 29, "posicion": "Extremo izquierdo", "nacionalidad": "Alemania" },
+          { "nombre": "Jannick Green", "edad": 32, "posicion": "Portero", "nacionalidad": "Dinamarca" },
+          { "nombre": "Steffen Weinhold", "edad": 34, "posicion": "Lateral izquierdo", "nacionalidad": "Alemania" }
+        ]
+      },
+      {
+        "nombre": "Vardar Skopje",
+        "pais": "Macedonia del Norte",
+        "jugadores": [
+          { "nombre": "Kiril Lazarov", "edad": 42, "posicion": "Extremo derecho", "nacionalidad": "Macedonia del Norte" },
+          { "nombre": "Dario Quenstedt", "edad": 31, "posicion": "Portero", "nacionalidad": "Alemania" },
+          { "nombre": "Edo Križanac", "edad": 30, "posicion": "Central", "nacionalidad": "Croacia" },
+          { "nombre": "Velko Markoski", "edad": 29, "posicion": "Lateral izquierdo", "nacionalidad": "Macedonia del Norte" },
+          { "nombre": "Luka Cindric", "edad": 30, "posicion": "Central", "nacionalidad": "Croacia" }
+        ]
+      }
+    ]
+  },
+  {
+    "deporte": "Béisbol",
+    "equipos": [
+      {
+        "nombre": "New York Yankees",
+        "pais": "Estados Unidos",
+        "jugadores": [
+          { "nombre": "Aaron Judge", "edad": 31, "posicion": "Jardinero", "nacionalidad": "EE.UU." },
+          { "nombre": "Gerrit Cole", "edad": 33, "posicion": "Lanzador", "nacionalidad": "EE.UU." },
+          { "nombre": "Giancarlo Stanton", "edad": 34, "posicion": "Jardinero", "nacionalidad": "EE.UU." },
+          { "nombre": "Anthony Rizzo", "edad": 34, "posicion": "Primera base", "nacionalidad": "EE.UU." },
+          { "nombre": "DJ LeMahieu", "edad": 35, "posicion": "Segunda base", "nacionalidad": "EE.UU." }
+        ]
+      },
+      {
+        "nombre": "Los Angeles Dodgers",
+        "pais": "Estados Unidos",
+        "jugadores": [
+          { "nombre": "Mookie Betts", "edad": 31, "posicion": "Jardinero", "nacionalidad": "EE.UU." },
+          { "nombre": "Freddie Freeman", "edad": 34, "posicion": "Primera base", "nacionalidad": "Canadá" },
+          { "nombre": "Clayton Kershaw", "edad": 36, "posicion": "Lanzador", "nacionalidad": "EE.UU." },
+          { "nombre": "Julio Urías", "edad": 27, "posicion": "Lanzador", "nacionalidad": "México" },
+          { "nombre": "Max Muncy", "edad": 34, "posicion": "Tercera base", "nacionalidad": "EE.UU." }
+        ]
+      },
+      {
+        "nombre": "San Francisco Giants",
+        "pais": "Estados Unidos",
+        "jugadores": [
+          { "nombre": "Logan Webb", "edad": 27, "posicion": "Lanzador", "nacionalidad": "EE.UU." },
+          { "nombre": "Joc Pederson", "edad": 32, "posicion": "Jardinero", "nacionalidad": "EE.UU." },
+          { "nombre": "Brandon Crawford", "edad": 38, "posicion": "Campocorto", "nacionalidad": "EE.UU." },
+          { "nombre": "Wilmer Flores", "edad": 32, "posicion": "Primera base", "nacionalidad": "Venezuela" },
+          { "nombre": "Thairo Estrada", "edad": 28, "posicion": "Segunda base", "nacionalidad": "Venezuela" }
+        ]
+      },
+      {
+        "nombre": "Boston Red Sox",
+        "pais": "Estados Unidos",
+        "jugadores": [
+          { "nombre": "Xander Bogaerts", "edad": 30, "posicion": "Campocorto", "nacionalidad": "República Dominicana" },
+          { "nombre": "Rafael Devers", "edad": 26, "posicion": "Tercera base", "nacionalidad": "República Dominicana" },
+          { "nombre": "Chris Sale", "edad": 34, "posicion": "Lanzador", "nacionalidad": "EE.UU." },
+          { "nombre": "Alex Verdugo", "edad": 27, "posicion": "Jardinero", "nacionalidad": "México" },
+          { "nombre": "Kutter Crawford", "edad": 27, "posicion": "Lanzador", "nacionalidad": "EE.UU." }
+        ]
+      }
+    ]
+  }
+]
