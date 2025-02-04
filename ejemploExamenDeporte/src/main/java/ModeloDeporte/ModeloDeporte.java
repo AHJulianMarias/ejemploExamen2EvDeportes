@@ -65,7 +65,7 @@ public class ModeloDeporte {
 	public static void main(String[] args) {
 		conectarCompass();
 		conectarseAXQJ(USERNAME, PASSWORD);
-		col = conectarseAXMLDB(USERNAME, PASSWORD, "/db/coleccionCreadaAhora");
+		col = conectarseAXMLDB(USERNAME, PASSWORD, "/db/");
 		menu();
 		desconectarCompass();
 	}
@@ -85,7 +85,6 @@ public class ModeloDeporte {
 
 	public static Collection conectarseAXMLDB(String username, String password, String URICollection) {
 		try {
-			// Cargar la clase de la base de datos de eXist-DB
 			Class<?> cl = Class.forName("org.exist.xmldb.DatabaseImpl");
 			Database database = (Database) cl.getDeclaredConstructor().newInstance();
 
@@ -94,8 +93,9 @@ public class ModeloDeporte {
 
 			// Conectar a la colección
 			String connectionURI = "xmldb:exist://localhost:8080/exist/xmlrpc" + URICollection;
-			Collection col = DatabaseManager.getCollection(connectionURI, username, password);
-			return col;
+			Collection collection = DatabaseManager.getCollection(connectionURI, username, password);
+
+			return collection;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -120,7 +120,6 @@ public class ModeloDeporte {
 			}
 
 		} catch (XMLDBException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -131,7 +130,8 @@ public class ModeloDeporte {
 		while (!eleccion.equalsIgnoreCase("X")) {
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Elige la opción que quieras:" + "\n1-Pasar datos de mongoDB a MySQL"
-					+ "\n2-Pasar de MySQL a existDB" + "\n3-Pasar de mongoDB a existBD" + "\nX-Salir");
+					+ "\n2-Pasar de MySQL a existDB" + "\n3-Pasar de mongoDB a existBD"
+					+ "\n4-Crea una coleccion en existDB" + "\nX-Salir");
 			eleccion = sc.next().toLowerCase();
 			switch (eleccion) {
 			case "1":
@@ -156,7 +156,20 @@ public class ModeloDeporte {
 					System.out.println("Error realizando el traspaso de mongodb a existDB");
 				}
 				break;
+			case "4":
+				try {
+					col.close();
+				} catch (XMLDBException e) {
 
+				}
+				col = conectarseAXMLDB(USERNAME, PASSWORD, "/db/");
+				Scanner sc2 = new Scanner(System.in);
+				System.out.println("Escribe el nombre de la colección que quieras crear");
+				String nombreNuevaColeccion = sc2.next();
+
+				crearBorrarColeccion(col, nombreNuevaColeccion, true);
+				col = conectarseAXMLDB(USERNAME, PASSWORD, "/db/" + nombreNuevaColeccion);
+				break;
 			case "x":
 				if (desconectarCompass()) {
 					System.out.println("Desconectado correctamente de la base de datos");
